@@ -27,15 +27,38 @@ namespace TriangleTest
 
         private void Button_ClickCheck(object sender, RoutedEventArgs e)
         {
-            string sideTriA = sideA.Text;
-            string sideTriB = sideB.Text;
-            string sideTriC = sideC.Text;
-            
-            if(sideTriA == sideTriB) 
+            try
             {
-                tbAnswer = "Равносторонний"
-            }
+                int sideTriA = Convert.ToInt32(sideA.Text);
+                int sideTriB = Convert.ToInt32(sideB.Text);
+                int sideTriC = Convert.ToInt32(sideC.Text);
 
+
+                if (sideTriA == sideTriB && sideTriB == sideTriC && sideTriA == sideTriC)
+                {
+                    tbAnswer.Text = "Равносторонний";
+                }
+                else if (sideTriA == sideTriB)
+                {
+                    tbAnswer.Text = "Равнобедренный";
+                }
+                else
+                {
+                    tbAnswer.Text = "Разносторонний";
+                }
+            }
+            catch { tbAnswer.Text = "Ошибка!"; }
+
+
+            inputGrid.Visibility = Visibility.Hidden;
+            answerGrid.Visibility = Visibility.Visible;
+
+        }
+
+        private void Button_ClickBack(object sender, RoutedEventArgs e)
+        {
+            answerGrid.Visibility = Visibility.Hidden;
+            inputGrid.Visibility = Visibility.Visible;
         }
     }
 }
