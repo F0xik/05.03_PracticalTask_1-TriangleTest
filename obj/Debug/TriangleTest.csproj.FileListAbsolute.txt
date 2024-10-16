@@ -1,0 +1,17 @@
+D:\VisualProject\TriangleTest\TriangleTest\bin\Debug\TriangleTest.exe.config
+D:\VisualProject\TriangleTest\TriangleTest\bin\Debug\TriangleTest.exe
+D:\VisualProject\TriangleTest\TriangleTest\bin\Debug\TriangleTest.pdb
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\TriangleTest.csproj.AssemblyReference.cache
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\MainWindow.g.cs
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\App.g.cs
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\TriangleTest_MarkupCompile.cache
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\TriangleTest_MarkupCompile.lref
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\MainWindow.baml
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\TriangleTest.g.resources
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\TriangleTest.Properties.Resources.resources
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\TriangleTest.csproj.GenerateResource.cache
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\TriangleTest.csproj.CoreCompileInputs.cache
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\TriangleTest.exe
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\TriangleTest.pdb
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\fin.g.cs
+D:\VisualProject\TriangleTest\TriangleTest\obj\Debug\Window2.g.cs
