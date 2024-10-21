@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,12 +34,19 @@ namespace TriangleTest
                 int sideTriB = Convert.ToInt32(sideB.Text);
                 int sideTriC = Convert.ToInt32(sideC.Text);
 
-
-                if (sideTriA == sideTriB && sideTriB == sideTriC && sideTriA == sideTriC)
+                if(sideTriA <= 0 || sideTriB <= 0 ||sideTriC <= 0)
+                {
+                    tbAnswer.Text = "Ошибка. Стороны не могут быть отрицательными или 0";
+                }
+                else if(sideTriA >= sideTriB + sideTriC || sideTriB >= sideTriA + sideTriC || sideTriC >= sideTriB + sideTriA)
+                {
+                    tbAnswer.Text = "Ошибка. Одна сторона больше суммы других сторон или равна";
+                }
+                else if (sideTriA == sideTriB && sideTriB == sideTriC && sideTriA == sideTriC)
                 {
                     tbAnswer.Text = "Равносторонний";
                 }
-                else if (sideTriA == sideTriB)
+                else if (sideTriA == sideTriB || sideTriA == sideTriC || sideTriB == sideTriC)
                 {
                     tbAnswer.Text = "Равнобедренный";
                 }
@@ -47,7 +55,7 @@ namespace TriangleTest
                     tbAnswer.Text = "Разносторонний";
                 }
             }
-            catch { tbAnswer.Text = "Ошибка!"; }
+            catch { tbAnswer.Text = "Ошибка! Это не треугольник"; }
 
 
             inputGrid.Visibility = Visibility.Hidden;

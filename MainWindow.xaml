@@ -22,9 +22,9 @@
             </Grid.RowDefinitions>
 
             <TextBox Text="Введите длины сторон треугольника" FontSize="26" Grid.Row="1" Grid.ColumnSpan="3" VerticalContentAlignment="Center" HorizontalAlignment="Center" IsReadOnly="True" BorderThickness="0,0,0,0" />
-            <TextBox Name="sideA" BorderThickness="1,1,1,1"  Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="60" Width="200" />
-            <TextBox Name="sideB" BorderThickness="1,1,1,1"  Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="60" Width="200" />
-            <TextBox Name="sideC" BorderThickness="1,1,1,1"  Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="60" Width="200" />
+            <TextBox Name="sideA" BorderThickness="1,1,1,1" FontSize="28" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="60" Width="200" />
+            <TextBox Name="sideB" BorderThickness="1,1,1,1" FontSize="28" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="60" Width="200" />
+            <TextBox Name="sideC" BorderThickness="1,1,1,1" FontSize="28" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="60" Width="200" />
 
             <Button Click="Button_ClickCheck"  Content="Проверить" Grid.Column="1" Grid.Row="3" Width="200" Height="60">
                 <Button.Resources>
@@ -44,7 +44,7 @@
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
-            <TextBox Name="tbAnswer" FontSize="26" VerticalContentAlignment="Center" HorizontalAlignment="Center"  Width="250" BorderThickness="1,1,1,1" Grid.Column="1" Margin="0,92,0,50"  />
+            <TextBox Name="tbAnswer" FontSize="26" VerticalContentAlignment="Center" HorizontalAlignment="Center"  Width="700" BorderThickness="1,1,1,1" Grid.Column="0" Grid.ColumnSpan="3"  Margin="0,92,0,50" />
             <TextBlock Text="Ответ" FontSize="30" Grid.Column="1" Grid.Row="0" Width="100" TextAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
             <Button Click="Button_ClickBack" Content="Назад" Grid.Column="1" Grid.Row="1" Width="200" Height="60" >
                 <Button.Resources>

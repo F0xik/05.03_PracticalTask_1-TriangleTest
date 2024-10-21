@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\repos\\TestingLab02-TriangleTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54A5A0B2-2D3F-486A-81A1-F97703B221E5}|TriangleTest.csproj|d:\\repos\\testinglab02-triangletest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{54A5A0B2-2D3F-486A-81A1-F97703B221E5}|TriangleTest.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{54A5A0B2-2D3F-486A-81A1-F97703B221E5}|TriangleTest.csproj|D:\\repos\\TestingLab02-TriangleTest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54A5A0B2-2D3F-486A-81A1-F97703B221E5}|TriangleTest.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A5A0B2-2D3F-486A-81A1-F97703B221E5}|TriangleTest.csproj|d:\\repos\\testinglab02-triangletest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54A5A0B2-2D3F-486A-81A1-F97703B221E5}|TriangleTest.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54A5A0B2-2D3F-486A-81A1-F97703B221E5}|TriangleTest.csproj|d:\\repos\\testinglab02-triangletest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54A5A0B2-2D3F-486A-81A1-F97703B221E5}|TriangleTest.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\repos\\TestingLab02-TriangleTest\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\repos\\TestingLab02-TriangleTest\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAUAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCYAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T10:11:09.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\repos\\TestingLab02-TriangleTest\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
